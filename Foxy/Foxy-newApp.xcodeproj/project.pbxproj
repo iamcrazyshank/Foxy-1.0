@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0651A4524DBE2648C7CAEF33 /* Pods_Foxy_newApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098B5743BD62FC4DC703D537 /* Pods_Foxy_newApp.framework */; };
+		86E0ADC221DB15E100788BFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E0ADC121DB15E100788BFA /* AppDelegate.swift */; };
+		86E0ADC721DB15E100788BFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E0ADC521DB15E100788BFA /* Main.storyboard */; };
+		86E0ADC921DB15E300788BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86E0ADC821DB15E300788BFA /* Assets.xcassets */; };
+		86E0ADCC21DB15E300788BFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E0ADCA21DB15E300788BFA /* LaunchScreen.storyboard */; };
+		86E0ADD421DB161600788BFA /* FoxyHomepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E0ADD321DB161600788BFA /* FoxyHomepage.swift */; };
+		86E0ADD621DB166400788BFA /* NewsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E0ADD521DB166400788BFA /* NewsViewCell.swift */; };
+		86E0ADD821DB1C2300788BFA /* newsArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E0ADD721DB1C2300788BFA /* newsArticle.swift */; };
+		86E0ADDA21DB6C4000788BFA /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E0ADD921DB6C4000788BFA /* NewsDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		098B5743BD62FC4DC703D537 /* Pods_Foxy_newApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foxy_newApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E0ADBE21DB15E100788BFA /* Foxy-newApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foxy-newApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E0ADC121DB15E100788BFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86E0ADC621DB15E100788BFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86E0ADC821DB15E300788BFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86E0ADCB21DB15E300788BFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86E0ADCD21DB15E300788BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86E0ADD321DB161600788BFA /* FoxyHomepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxyHomepage.swift; sourceTree = "<group>"; };
+		86E0ADD521DB166400788BFA /* NewsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewCell.swift; sourceTree = "<group>"; };
+		86E0ADD721DB1C2300788BFA /* newsArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsArticle.swift; sourceTree = "<group>"; };
+		86E0ADD921DB6C4000788BFA /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		BE714884E2496741589F6E4D /* Pods-Foxy-newApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foxy-newApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foxy-newApp/Pods-Foxy-newApp.release.xcconfig"; sourceTree = "<group>"; };
+		DA91D21EB190F5453CF5A471 /* Pods-Foxy-newApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foxy-newApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foxy-newApp/Pods-Foxy-newApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86E0ADBB21DB15E100788BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0651A4524DBE2648C7CAEF33 /* Pods_Foxy_newApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CAA1F26C40835E87CDF5B84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA91D21EB190F5453CF5A471 /* Pods-Foxy-newApp.debug.xcconfig */,
+				BE714884E2496741589F6E4D /* Pods-Foxy-newApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86E0ADB521DB15E100788BFA = {
+			isa = PBXGroup;
+			children = (
+				86E0ADC021DB15E100788BFA /* Foxy-newApp */,
+				86E0ADBF21DB15E100788BFA /* Products */,
+				4CAA1F26C40835E87CDF5B84 /* Pods */,
+				BE79BC5C294251E293A710EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86E0ADBF21DB15E100788BFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86E0ADBE21DB15E100788BFA /* Foxy-newApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86E0ADC021DB15E100788BFA /* Foxy-newApp */ = {
+			isa = PBXGroup;
+			children = (
+				86E0ADC121DB15E100788BFA /* AppDelegate.swift */,
+				86E0ADD521DB166400788BFA /* NewsViewCell.swift */,
+				86E0ADD321DB161600788BFA /* FoxyHomepage.swift */,
+				86E0ADD921DB6C4000788BFA /* NewsDetailViewController.swift */,
+				86E0ADD721DB1C2300788BFA /* newsArticle.swift */,
+				86E0ADC521DB15E100788BFA /* Main.storyboard */,
+				86E0ADC821DB15E300788BFA /* Assets.xcassets */,
+				86E0ADCA21DB15E300788BFA /* LaunchScreen.storyboard */,
+				86E0ADCD21DB15E300788BFA /* Info.plist */,
+			);
+			path = "Foxy-newApp";
+			sourceTree = "<group>";
+		};
+		BE79BC5C294251E293A710EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				098B5743BD62FC4DC703D537 /* Pods_Foxy_newApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86E0ADBD21DB15E100788BFA /* Foxy-newApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86E0ADD021DB15E300788BFA /* Build configuration list for PBXNativeTarget "Foxy-newApp" */;
+			buildPhases = (
+				1FFCDD7C095548FFDA3957B1 /* [CP] Check Pods Manifest.lock */,
+				86E0ADBA21DB15E100788BFA /* Sources */,
+				86E0ADBB21DB15E100788BFA /* Frameworks */,
+				86E0ADBC21DB15E100788BFA /* Resources */,
+				423682673C57BFBF89DF50FB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Foxy-newApp";
+			productName = "Foxy-newApp";
+			productReference = 86E0ADBE21DB15E100788BFA /* Foxy-newApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86E0ADB621DB15E100788BFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Shashank Chandran";
+				TargetAttributes = {
+					86E0ADBD21DB15E100788BFA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 86E0ADB921DB15E100788BFA /* Build configuration list for PBXProject "Foxy-newApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86E0ADB521DB15E100788BFA;
+			productRefGroup = 86E0ADBF21DB15E100788BFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86E0ADBD21DB15E100788BFA /* Foxy-newApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86E0ADBC21DB15E100788BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E0ADCC21DB15E300788BFA /* LaunchScreen.storyboard in Resources */,
+				86E0ADC921DB15E300788BFA /* Assets.xcassets in Resources */,
+				86E0ADC721DB15E100788BFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FFCDD7C095548FFDA3957B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foxy-newApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		423682673C57BFBF89DF50FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Foxy-newApp/Pods-Foxy-newApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Foxy-newApp/Pods-Foxy-newApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86E0ADBA21DB15E100788BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E0ADD621DB166400788BFA /* NewsViewCell.swift in Sources */,
+				86E0ADD821DB1C2300788BFA /* newsArticle.swift in Sources */,
+				86E0ADC221DB15E100788BFA /* AppDelegate.swift in Sources */,
+				86E0ADD421DB161600788BFA /* FoxyHomepage.swift in Sources */,
+				86E0ADDA21DB6C4000788BFA /* NewsDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86E0ADC521DB15E100788BFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86E0ADC621DB15E100788BFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86E0ADCA21DB15E300788BFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86E0ADCB21DB15E300788BFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86E0ADCE21DB15E300788BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86E0ADCF21DB15E300788BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86E0ADD121DB15E300788BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA91D21EB190F5453CF5A471 /* Pods-Foxy-newApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6LNLR9M38;
+				INFOPLIST_FILE = "Foxy-newApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Foxy-newApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86E0ADD221DB15E300788BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE714884E2496741589F6E4D /* Pods-Foxy-newApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6LNLR9M38;
+				INFOPLIST_FILE = "Foxy-newApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Foxy-newApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86E0ADB921DB15E100788BFA /* Build configuration list for PBXProject "Foxy-newApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E0ADCE21DB15E300788BFA /* Debug */,
+				86E0ADCF21DB15E300788BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86E0ADD021DB15E300788BFA /* Build configuration list for PBXNativeTarget "Foxy-newApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E0ADD121DB15E300788BFA /* Debug */,
+				86E0ADD221DB15E300788BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86E0ADB621DB15E100788BFA /* Project object */;
+}
